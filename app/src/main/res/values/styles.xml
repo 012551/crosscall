@@ -1,0 +1,85 @@
+<resources>
+
+    <style name="AppUIStyle">
+
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_frame</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!-- setting item style -->
+    <style name="AppUIStyle.SettingItemStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/default_left_margin</item>
+        <item name="android:paddingRight">@dimen/default_right_margin</item>
+        <item name="android:minHeight">@dimen/setting_items_height</item>
+    </style>
+
+    <style name="AppUIStyle.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/default_button_height</item>
+        <item name="android:layout_marginLeft">26dp</item>
+        <item name="android:layout_marginRight">26dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:textColor">@drawable/button_text_color_selector</item>
+        <item name="android:textSize">@dimen/bottom_button_text_size</item>
+    </style>
+
+    <!-- pop item style -->
+    <style name="AppUIStyle.PopItemStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/menu_item_selector</item>
+    </style>
+
+    <!-- pop txt style -->
+    <style name="AppUIStyle.PopItemTxtStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/default_left_margin</item>
+        <item name="android:textColor">@color/option_pop_text_color</item>
+        <item name="android:textSize">@dimen/pop_item_text_size</item>
+    </style>
+
+    <style name="AppUIStyle.RadioBtn">
+        <item name="android:drawableRight">@drawable/radiobutton_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:textColor">@color/black_text_color</item>
+        <item name="android:textSize">@dimen/pop_item_text_size</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:background">@drawable/setting_item_selector</item>
+    </style>
+
+    <style name="AppUIStyle.TranslucentActivity" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/title_bg_color</item>
+        <item name="android:colorPrimaryDark">@color/status_bar_bg</item>
+    </style>
+
+    <style name="Main.AppTheme" parent="Base.AppTheme"></style>
+
+</resources>

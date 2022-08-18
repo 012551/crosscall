@@ -1,0 +1,17 @@
+*.svn
+*.idea
+*.gradle
+/withIcon
+/noIcon
+/gradlew
+/gradle
+gradle.properties
+gradlew.bat
+local.properties
+app.iml
+build/
+fota.keystore
+google-services.json
+libs/
+proguard-rules.pro
+public.xml

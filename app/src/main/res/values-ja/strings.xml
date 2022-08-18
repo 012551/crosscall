@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pop_install_remind_title">アップデートのヒント</string>
+    <string name="pop_install_remind_content">新バージョンは、今それをインストールしてくださいダウンロードされています。</string>
+    <string name="ota_button_text_know">知っている</string>
+    <string name="app_name">ワイヤレスアップデート</string>
+    <string name="check_now">最新バージョンのファイルがあるか確認します</string>
+    <string name="option_settings">設定</string>
+    <string name="current_version_text">現在のバージョン：</string>
+    <string name="new_version_text">新しいバージョン</string>
+    <string name="download_progress">進行状況：</string>
+    <string name="update_now">今すぐ更新する</string>
+    <string name="update_later">後で更新する</string>
+    <string name="battery_remove_title">ご注意ください</string>
+    <string name="notification_content_title">ワイヤレスアップデート</string>
+    <string name="notification_content_newversion">ワイヤレス　アップデート：アップデート　バージョン</string>
+    <string name="new_version_query">アップデートを確認しています・・・</string>
+    <string name="no_new_version">お使いの携帯はすでに最新のバージョンです</string>
+    <string name="network_error">ネットワークの接続ができませんでした</string>
+    <string name="unmount_sdcard">SDカードがしっかり取り付けされているかご確認ください。</string>
+    <string name="sdcard_crash_or_unmount">SDカードにエラーが発生しています。SDカードをご確認ください。</string>
+    <string name="btn_pause">停止</string>
+    <string name="btn_resume">再開する</string>
+    <string name="btn_download">ダウンロード</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="netRoaming_content_tip">ローミング中にモバイルデータに接続されているため、Wi-Fi接続を使用することをお勧めします。モバイルデータを使用してダウンロードを開始すると、追加料金がかかる場合があります。続行しますか？</string>
+    <string name="cancel_download_title">ダウンロードをキャンセルする</string>
+    <string name="cancel_download_content">ダウンロードしたファイルは削除されます。</string>
+    <string name="cancel_download_positive_btn">はい</string>
+    <string name="cancel_download_negative_btn">いいえ</string>
+    <string name="update_prompt">デバイスが再起動してアップグレードモードに入ると、プロセス全体が数分間続きますが、この間はアップグレードを行わないように操作しないでください。</string>
+    <string name="not_support_fota_title">ご注意ください</string>
+    <string name="not_support_version">この製品はFOTAによるアップデートができません。</string>
+    <string name="package_error_title">更新ができませんでした</string>
+    <string name="package_error_message_invalid">パッケージエラー。　お手数ですが再度最新バージョンファイルがあるか確認しダウンロードをお願いします。</string>
+    <string name="updateSuccessTitle">更新に成功しました</string>
+    <string name="updateSuccess">すでに最新のバージョンをインストールしています <xliff:g example="gb.p37" id="version">%s</xliff:g>.</string>
+    <string name="package_unzip">ファイルを解凍しています</string>
+    <string name="package_unzip_error">解凍できませんでした</string>
+    <string name="upgrade_hint">更新のヒント</string>
+    <string name="setting_autocheck">自動で最新バージョンがあるか確認する</string>
+    <string name="setting_autocheck_title">サイクルの設定</string>
+    <string name="setting_autocheck_hint">定期的に自動で最新バージョンがあるか確認する</string>
+    <string name="setting_autocheck_schedule1">一日</string>
+    <string name="setting_autocheck_schedule2">三日</string>
+    <string name="setting_autocheck_schedule3">毎週</string>
+    <string name="setting_only_wifi">Wi-Fi接続の時のみ最新バージョンに更新する</string>
+    <string name="setting_only_wifi_hint">Wi-Fi接続の時のみ最新バージョンのファイルをダウンロードする</string>
+    <string name="setting_autodownload">自動的にダウンロードする</string>
+    <string name="setting_autodownload_hint">最新バージョンのファイルを自動的にダウンロードする</string>
+    <string name="setting_network_tip">現在２Gまたは３Gの接続になっています。「Wi-Fi接続の時のみ最新バージョンに更新する」に変更してから再度お試しください。</string>
+    <string name="reboot">再起動...</string>
+    <string name="option_file_select">ローカルアップデート</string>
+    <string name="selected_update_zip">選択済みのファイル: </string>
+    <!-- no translation found for sdCard_update_tips_content -->
+    <string name="sdCard_upgrade_hint">アップデートヒント</string>
+    <string name="sdCard_upgrade_find_update_file_fail">利用可能なアップデートファイルがありません。</string>
+    <string name="sdCard_upgrade_update_file_fail_prompt">アップデートファイルが存在しません。再度選択してください。</string>
+    <string name="sdCard_upgrade_memory_space_not_enough">エラー</string>
+    <string name="sdCard_upgrade_copy_file_fail">貼り付けに失敗しました。</string>
+    <string name="sdCard_upgrade_copy_file_fail_prompt">貼り付けに失敗しました。再度お試しください。</string>
+    <string name="sdCard_upgrade_copying">貼り付けています</string>
+    <string name="download_completed_text">ダウンロードが完了しました。クリックしてインストールしてください。</string>
+    <string name="empty_directory">このフォルダにはzipファイルがありません。</string>
+    <string name="sdcard_update_prompt">非公式または互換性がないzipファイルを選択し、インストールした場合、お使いの端末は動作できなくなる恐れがあります。</string>
+    <string name="export_data">データを出力</string>
+    <string name="start_catch_log">ログのキャッチを開始</string>
+    <string name="stop_catch_log">ログのキャッチを停止</string>
+    <string name="remind_last_time">再び思い出させます</string>
+    <string name="pop_install_schedule1">1時間後</string>
+    <string name="pop_install_schedule2">4時間後</string>
+    <string name="pop_install_schedule3">8時間後</string>
+    <string name="option_exit">閉じる</string>
+    <!-- no translation found for htmlstring_version -->
+    <!-- no translation found for htmlstring_version_end -->
+    <!-- no translation found for htmlstring_code_head -->
+    <!-- no translation found for htmlstring_code_end -->
+    <string name="ota_notify_download_pause_content">一時停止、をクリックして進みます</string>
+    <string name="ota_device_rooted_content">デバイスがルート、更新することはできませんされています！</string>
+    <string name="ota_battery_low">現在のバッテリーが%d%%未満の場合は充電してください。</string>
+    <string name="ota_wifi_setting">無線LANの設定</string>
+    <string name="ota_no_wifi_tip">無線LANは、今で利用可能なネットワークを経由してダウンロードすること確認していないのですか？</string>
+    <string name="ota_full_rom_check">チェック</string>
+    <string name="ota_optional_full_check">完全更新をチェック</string>
+    <string name="ota_toast_no_network">ネットワークが接続されていません</string>
+    <string name="out_sdcard">SD card</string>
+    <string name="inner_sdcard">内部記憶装置</string>
+    <!-- no translation found for match_imei -->
+    <!-- no translation found for sdcard_crash_dir_un_build -->
+    <!-- no translation found for post_pro -->
+    <!-- no translation found for ab_install_fail -->
+    <!-- no translation found for ab_install_success -->
+    <!-- no translation found for updated_need_reboot -->
+    <!-- no translation found for ab_isnatll_fail_reason -->
+    <!-- no translation found for ab_installing -->
+    <!-- no translation found for ab_connect_fail -->
+    <!-- no translation found for ab_battery_low -->
+    <!-- no translation found for ab_parms_illegal -->
+    <!-- no translation found for ab_reboot_now -->
+    <!-- no translation found for tips_abDownOrInstall -->
+    <!-- no translation found for tips_abInstall -->
+    <!-- no translation found for button_click_toast -->
+    <!-- no translation found for about_wireless_update -->
+    <!-- no translation found for agree -->
+    <!-- no translation found for analysis -->
+    <!-- no translation found for content -->
+    <string name="new_to_upgrade">インストールする新しいバージョンがあります</string>
+    <string name="upgrade_agreement">アップグレードとインストールのための規範的合意</string>
+    <string name="upgrade_agreement_content">1.バグを修正し、FOTAのパフォーマンスを安定させる 2.自動アップグレードは夜間に有効になります \n3.自動アップグレードは、インストールが3回遅れて有効になります \n4. FOTAアップグレードはソフトウェアをアップグレードするための安全な方法です。 アップグレードすることをお勧めします</string>
+    <string name="shake_to_check">確認するために振る</string>
+    <string name="shake_to_download">ダウンロードして振る</string>
+    <string name="shake_to_update">更新するために振る</string>
+    <string name="call_warn">通話中はソフトウェア更新プログラムのダウンロードは利用できません。</string>
+    <string name="romimg_notice">ローミング中にモバイルデータに接続されているため、Wi-Fi接続を使用することをお勧めします。モバイルデータを使用してダウンロードを開始すると、追加料金がかかる場合があります。続行しますか？</string>
+
+</resources>

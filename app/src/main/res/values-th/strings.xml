@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">อัพเดทเครือข่ายไร้สาย</string>
+    <string name="check_now">ตรวจสอบเพื่ออัปเดต</string>
+    <string name="option_settings">การตั้งค่า</string>
+    <string name="current_version_text">ปัจจุบัน</string>
+    <string name="new_version_text">เวอร์ชั่นใหม่</string>
+    <string name="download_progress">อัตราความคืบหน้า</string>
+    <string name="update_now">อัปเดตตอนนี้</string>
+    <string name="update_later">อัปเดตภายหลัง</string>
+    <string name="battery_remove_title">คำเตือน</string>
+    <string name="notification_content_title">อัปเดตเครื่อข่ายไร้สาย</string>
+    <string name="notification_content_newversion">อัปเดตเครือข่ายไร้สาย เวอร์ชั่นอัปเดต</string>
+    <string name="new_version_query">กำลังตรวจสอบสำหรับอัปเดต</string>
+    <string name="no_new_version">ระบบของท่านเป็นเวอร์ชั่นล่าสุด</string>
+    <string name="network_error">การเชื่อมต่อเครือข่ายล้มเหลว</string>
+    <string name="unmount_sdcard">การติดตั้งผิดพลาด กรุณาตรวจสอบ</string>
+    <string name="sdcard_crash_or_unmount">SD การ์ดผิดพลาด กรุณาตรวจสอบSD การ์ดและทดลองใหม่อีกครั้ง</string>
+    <string name="btn_pause">หยุด</string>
+    <string name="btn_resume">ดำเนินการต่อ</string>
+    <string name="btn_download">ดาวน์โหลด</string>
+    <string name="btn_ok">ตกลง</string>
+    <string name="btn_cancel">ยกเลิก</string>
+    <string name="netRoaming_content_tip">คุณเชื่อมต่อกับข้อมูลมือถือในขณะที่โรมมิ่งขอแนะนำให้ใช้การเชื่อมต่อ Wi-Fi หากคุณเริ่มดาวน์โหลดโดยใช้ข้อมูลมือถืออาจมีการคิดค่าธรรมเนียมเพิ่มเติม คุณต้องการที่จะดำเนินการต่อ?</string>
+    <string name="cancel_download_title">ยกเลิกการดาวน์โหลด</string>
+    <string name="cancel_download_content">การทำงานนี้จะยกเลิกการดาวน์โหลดไฟล์</string>
+    <string name="cancel_download_positive_btn">ใช่</string>
+    <string name="cancel_download_negative_btn">ไม่ใช่</string>
+    <string name="update_prompt">อุปกรณ์จะบูตเครื่องใหม่และเข้าสู่โหมดอัพเกรดกระบวนการทั้งหมดจะใช้เวลาไม่กี่นาทีในช่วงเวลานี้อย่าดำเนินการใด ๆ เพื่อหลีกเลี่ยงความล้มเหลวในการอัพเกรด</string>
+    <string name="not_support_fota_title">คำเตือน</string>
+    <string name="not_support_version">อุปกรณ์ไม่รองรับอัปเดตFOTA</string>
+    <string name="package_error_title">ติดตั้งล้มเหลว</string>
+    <string name="package_error_message_invalid">แพ็คเกจล้มเหลว กรุณาตรวจสอบการอัปเดตและการดาวน์โหลดอีกครั้ง</string>
+    <string name="updateSuccessTitle">การติดตั้งสำเร็จ</string>
+    <string name="updateSuccess">คุณได้ติดตั้งรุ่น %s</string>
+    <string name="package_unzip">กำลังเปิดแพ็คเกจ กรุณาหลีกเลี่ยงการรบกวนการทำงาน</string>
+    <string name="package_unzip_error">เปิดแพ็คเกจผิดพลาด</string>
+    <string name="upgrade_hint">คำแนะนำในการอัปเดต</string>
+    <string name="setting_autocheck">ตรวจสอบสำหรับอัปเดตอัตโนมัติ</string>
+    <string name="setting_autocheck_title">การตั้งค่าการหมุนเวียน</string>
+    <string name="setting_autocheck_hint">ตั้งค่าการหมุนเวียนเพื่อตรวจสอบการอัปเดตอัตโนมัติ</string>
+    <string name="setting_autocheck_schedule1">อยู่มาวันหนึ่ง</string>
+    <string name="setting_autocheck_schedule2">สามวัน</string>
+    <string name="setting_autocheck_schedule3">รายสัปดาห์</string>
+    <string name="setting_only_wifi">อัปเดตผ่านWi-Fi เท่านั้น</string>
+    <string name="setting_only_wifi_hint">แพ็คแกจอัปเดตจะดาวน์โหลดผ่านWi-Fiเท่านั้น</string>
+    <string name="setting_autodownload">ยอมรับการดาวน์โหลดอัตโนมัติ</string>
+    <string name="setting_autodownload_hint">อัปเดตแพ็คเกจจะดาวน์โหลดอัตโนมัติ</string>
+    <string name="setting_network_tip">คุณกำลังอยู่ในเครือข่าย2G/3G กรุณาเปลี่ยน(สำหรับการอัปเดตWi-Fiเท่านั้น)การเลือกและทดลองอีกครั้ง</string>
+    <string name="reboot">รีบูต...</string>
+    <string name="option_file_select">การอัปเดตในเครื่อง</string>
+    <string name="selected_update_zip">ไฟล์ที่เลือกไว้: </string>
+    <!-- no translation found for sdCard_update_tips_content -->
+    <string name="sdCard_upgrade_hint">ประกาศ:</string>
+    <string name="sdCard_upgrade_find_update_file_fail">ไม่มีไฟล์อัปเดตที่พร้อมใช้งาน</string>
+    <string name="sdCard_upgrade_update_file_fail_prompt">ไม่มีไฟล์อัปเดตอยู่ โปรดเลือกอีกครั้ง</string>
+    <string name="sdCard_upgrade_memory_space_not_enough">ข้อผิดพลาด</string>
+    <string name="sdCard_upgrade_copy_file_fail">ไม่สามารถวางได้</string>
+    <string name="sdCard_upgrade_copy_file_fail_prompt">ไม่สามารถวางได้ โปรดลองอีกครั้ง!</string>
+    <string name="sdCard_upgrade_copying">กำลังวาง...</string>
+    <string name="download_completed_text">การดาวน์โหลดเสร็จสมบูรณ์ โปรดคลิกเพื่อติดตั้ง</string>
+    <string name="empty_directory">ไม่มีไฟล์ซิปในโฟลเดอร์นี้!</string>
+    <string name="sdcard_update_prompt">อุปกรณ์ของคุณจะไม่ทำงานหากคุณเลือกและติดตั้งไฟล์ซิปที่ไม่เป็นทางการหรือไม่สามารถใช้ร่วมกันได้!</string>
+    <string name="export_data">ดาวน์โหลดไฟล์บันทึก</string>
+    <string name="start_catch_log">เริ่มบันทึกไฟล์บันทึก</string>
+    <string name="stop_catch_log">สิ้นสุดการบันทึกไฟล์บันทึก</string>
+    <string name="remind_last_time">เตือนอีกครั้ง</string>
+    <string name="pop_install_schedule1">อีก 1 ชั่วโมงข้างหน้า</string>
+    <string name="pop_install_schedule2">อีก 4 ชั่วโมงข้างหน้า</string>
+    <string name="pop_install_schedule3">อีก 8 ชั่วโมงข้างหน้า</string>
+    <string name="pop_install_remind_title">คำแนะนำในการอัปเดต</string>
+    <string name="pop_install_remind_content">ดาวน์โหลดเวอร์ชันใหม่แล้ว โปรดติดตั้งเลย</string>
+    <string name="option_exit">ออก</string>
+    <!-- no translation found for htmlstring_version -->
+    <!-- no translation found for htmlstring_version_end -->
+    <!-- no translation found for htmlstring_code_head -->
+    <!-- no translation found for htmlstring_code_end -->
+    <string name="ota_notify_download_pause_content">หยุดชั่วคราว คลิกเพื่อดำเนินการต่อ</string>
+    <string name="ota_button_text_know">ฉันทราบ</string>
+    <string name="ota_device_rooted_content">อุปกรณ์ถูกรูท ไม่สามารถอัปเดตได้!</string>
+    <string name="ota_battery_low">แบตเตอรี่ปัจจุบันน้อยกว่า %d%% กรุณาชาร์จ!</string>
+    <string name="ota_wifi_setting">การตั้งค่า Wi-Fi</string>
+    <string name="ota_no_wifi_tip">Wi-Fi ไม่พร้อมใช้งานในตอนนี้ ต้องการยืนยันที่จะดาวน์โหลดผ่านเครือข่ายหรือไม่</string>
+    <string name="ota_full_rom_check">ตรวจสอบ</string>
+    <string name="ota_optional_full_check">ตรวจสอบการอัปเดตอย่างสมบูรณ์</string>
+    <string name="ota_toast_no_network">ไม่ได้เชื่อมต่อเครือข่าย</string>
+    <string name="out_sdcard">การ์ด SD</string>
+    <string name="inner_sdcard">พื้นที่เก็บข้อมูลภายใน</string>
+    <!-- no translation found for match_imei -->
+    <!-- no translation found for sdcard_crash_dir_un_build -->
+    <!-- no translation found for post_pro -->
+    <!-- no translation found for ab_install_fail -->
+    <!-- no translation found for ab_install_success -->
+    <!-- no translation found for updated_need_reboot -->
+    <!-- no translation found for ab_isnatll_fail_reason -->
+    <!-- no translation found for ab_installing -->
+    <!-- no translation found for ab_connect_fail -->
+    <!-- no translation found for ab_battery_low -->
+    <!-- no translation found for ab_parms_illegal -->
+    <!-- no translation found for ab_reboot_now -->
+    <!-- no translation found for tips_abDownOrInstall -->
+    <!-- no translation found for tips_abInstall -->
+    <!-- no translation found for button_click_toast -->
+    <!-- no translation found for about_wireless_update -->
+    <string name="agree">ตกลง</string>
+    <string name="analysis">การวิเคราะห์แอป</string>
+    <string name="content">เลือกที่จะช่วยปรับปรุงแอปของคุณด้วยการแชร์กิจกรรมและข้อมูลที่เกี่ยวข้องกับความผิดพลาด</string>
+    <string name="new_to_upgrade">คุณมีเวอร์ชันใหม่ที่จะติดตั้ง</string>
+    <string name="upgrade_agreement">ข้อตกลงทั่วไปสำหรับการอัพเกรดและการติดตั้ง</string>
+    <string name="upgrade_agreement_content">1. แก้ไขข้อบกพร่องและทำให้ประสิทธิภาพ FOTA คงที่ \n2. การอัปเกรดอัตโนมัติจะเปิดใช้งานในเวลากลางคืน \n3. การอัปเกรดอัตโนมัติจะเปิดใช้งานหลังจากความล่าช้าสามครั้งในการติดตั้ง \n4. การอัพเกรด FOTA เป็นวิธีที่ปลอดภัยในการอัพเกรดซอฟต์แวร์ ขอแนะนำให้คุณอัพเกรด</string>
+    <string name="shake_to_check">เขย่าเพื่อตรวจสอบ</string>
+    <string name="shake_to_download">เขย่าเพื่อดาวน์โหลด</string>
+    <string name="shake_to_update">เขย่าเพื่ออัปเดต</string>
+    <string name="call_warn">การดาวน์โหลดการอัพเดตซอฟต์แวร์จะไม่สามารถใช้ได้ในระหว่างการโทร</string>
+    <string name="romimg_notice">คุณเชื่อมต่อกับข้อมูลมือถือในขณะที่โรมมิ่งขอแนะนำให้ใช้การเชื่อมต่อ Wi-Fi หากคุณเริ่มดาวน์โหลดโดยใช้ข้อมูลมือถืออาจมีการคิดค่าธรรมเนียมเพิ่มเติม คุณต้องการที่จะดำเนินการต่อ?</string>
+
+</resources>

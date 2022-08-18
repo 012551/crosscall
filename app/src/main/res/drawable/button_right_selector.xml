@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item>
+                <shape>
+                    <solid android:color="@color/button_bg_pressed_color" />
+                    <corners android:bottomRightRadius="25dp" android:topRightRadius="25dp" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+
+
+    <item android:state_focused="true">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item>
+                <shape>
+                    <solid android:color="@color/button_bg_focused_color" />
+                    <corners android:bottomRightRadius="25dp" android:topRightRadius="25dp" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item>
+                <shape>
+                    <solid android:color="@color/button_bg_normal_color" />
+                    <stroke android:width="0.5dp" android:color="@color/button_border_color" />
+                    <corners android:bottomRightRadius="25dp" android:topRightRadius="25dp" />
+
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

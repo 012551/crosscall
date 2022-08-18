@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.adups.fota.activity.FileBrowserActivity">
+
+    <TextView
+        android:id="@+id/sdcard_update_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="8dp"
+        android:drawableStart="@mipmap/sd_update_icon"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/black_text_color"
+        android:textSize="@dimen/common_item_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/horizontal_line_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="8dp"
+        android:singleLine="true"
+        android:text="@string/upgrade_hint"
+        android:textColor="@color/black_text_color"
+        android:textSize="@dimen/common_item_text_size" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/sdcard_update_webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black_text_color"
+            android:layout_marginRight="5dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/sdcard_update_install"
+        style="@style/AppUIStyle.Button"
+        android:text="@string/update_now" />
+
+</LinearLayout>

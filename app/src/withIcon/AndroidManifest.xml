@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.adups.fota">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" /><!--震动权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /><!--9.0前台服务权限-->
+    <uses-permission android:name="android.hardware.sensor.accelerometer" /><!--重力加速度传感器权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.REBOOT" /><!--允许重启权限-->
+    <uses-permission android:name="android.permission.RECOVERY" /><!--允许执行升级权限-->
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES" /><!--删除系统cache权限-->
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" /><!--允许往系统写值-->
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" /><!--读取系统cache权限-->
+    <uses-permission android:name="android.permission.CHANGE_OVERLAY_PACKAGES" /><!--允许被资源替换权限-->
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <permission
+        android:name="com.adups.fota.permission"
+        android:protectionLevel="normal" />
+    <uses-permission android:name="com.adups.fota.permission" />
+
+    <permission
+        android:name="com.adups.fota.get_content_permission"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="com.adups.privacypolicy.get_content_permission" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="false"
+        android:persistent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/ic_launcher_background" />
+
+        <activity
+            android:name=".GoogleOtaClient"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Main.AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.my_device_info"/>
+            <meta-data android:name="com.android.settings.order"
+                android:value="0"/>
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/app_name" />
+        </activity>
+        <activity
+            android:name=".activity.SettingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".activity.FileBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".activity.SdcardUpdateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:excludeFromRecents="true"
+            android:name=".activity.InstallResultActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:taskAffinity=""
+            android:theme="@style/AppUIStyle.TranslucentActivity" />
+        <activity
+            android:name=".activity.InstallFailActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/AppUIStyle.TranslucentActivity" />
+        <activity
+            android:name=".TimePickerWindow"
+            android:taskAffinity=""
+            android:theme="@style/AppUIStyle.TranslucentActivity" />
+        <activity
+            android:name=".activity.PopupActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:enabled="true"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/AppUIStyle.TranslucentActivity" />
+        <activity
+            android:name=".activity.ShortCutActivity"
+            android:theme="@style/AppUIStyle.TranslucentActivity" />
+
+        <receiver
+            android:name=".receiver.MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.adups.fota.custom_service" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="com.adups.fota.DOWNLOAD_STOP" />
+                <action android:name="com.adups.fota.DOWNLOAD_NOW" />
+                <action android:name="com.adups.fota.INSTALL_NOW" />
+                <action android:name="com.adups.fota.OUT_BROADCAST_NEWVERSION" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_REMOVED" />
+                <action android:name="android.intent.action.MEDIA_BAD_REMOVAL" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="notification_cancelled"/>
+                <action android:name="notification_clicked"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.FcmService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.CustomActionService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".service.CustomActionIntentService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".service.SystemActionService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".manager.JobScheduleManager"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.adups.fota.MyContentProvider"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:readPermission="com.adups.fota.get_content_permission" />
+
+    </application>
+
+</manifest>

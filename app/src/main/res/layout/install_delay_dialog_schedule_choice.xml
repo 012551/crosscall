@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/RadioButton1"
+        style="@style/AppUIStyle.RadioBtn"
+        android:text="@string/pop_install_schedule1" />
+
+    <RadioButton
+        android:id="@+id/RadioButton2"
+        style="@style/AppUIStyle.RadioBtn"
+        android:checked="true"
+        android:text="@string/pop_install_schedule2" />
+
+    <RadioButton
+        android:id="@+id/RadioButton3"
+        style="@style/AppUIStyle.RadioBtn"
+        android:text="@string/pop_install_schedule3" />
+
+</RadioGroup>

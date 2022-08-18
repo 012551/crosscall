@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Pembaruan nirkabel</string>
+    <string name="check_now">Memeriksa untuk pembaruan</string>
+    <string name="option_settings">Pengaturan</string>
+    <string name="current_version_text">Saat ini:</string>
+    <string name="new_version_text">Versi baru</string>
+    <string name="download_progress">Laju progress:</string>
+    <string name="update_now">Perbarui sekarang</string>
+    <string name="update_later">Perbarui nanti</string>
+    <string name="battery_remove_title">Peringatan</string>
+    <string name="notification_content_title">Pembaruan nirkabel</string>
+    <string name="notification_content_newversion">Versi baru tersedia.</string>
+    <string name="new_version_query">Memeriksa untuk pembaruan...</string>
+    <string name="no_new_version">Sistem anda saat ini sudah terbaru.</string>
+    <string name="network_error">Koneksi jaringan gagal</string>
+    <string name="unmount_sdcard">Pemasangan kartu SD salah, silakan periksa kembali</string>
+    <string name="sdcard_crash_or_unmount">Kartu SD salah. Silakan periksa kartu SD dan coba kembali.</string>
+    <string name="btn_pause">Berhenti</string>
+    <string name="btn_resume">Lanjutkan</string>
+    <string name="btn_download">Mengunduh</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="netRoaming_content_tip">Anda terhubung ke data seluler saat roaming, disarankan untuk menggunakan koneksi Wi-Fi. Jika Anda memulai unduhan menggunakan data seluler, biaya tambahan mungkin berlaku. Apakah Anda ingin melanjutkan?</string>
+    <string name="cancel_download_title">Batal mengunduh</string>
+    <string name="cancel_download_content">Operasi ini akan menghapus file mengunduh.</string>
+    <string name="cancel_download_positive_btn">Iya</string>
+    <string name="cancel_download_negative_btn">Tidak</string>
+    <string name="update_prompt">Perangkat akan reboot dan masuk ke mode upgrade Seluruh proses akan berlangsung selama beberapa menit Selama waktu ini, jangan melakukan operasi apa pun untuk menghindari kegagalan upgrade.</string>
+    <string name="not_support_fota_title">Peringatan</string>
+    <string name="not_support_version">Ponsel anda tidak mendukung FOTA</string>
+    <string name="package_error_title">Proses instalasi gagal</string>
+    <string name="package_error_message_invalid">Kesalahan paket. Periksa pembaruan dan mengunduh lagi.</string>
+    <string name="updateSuccessTitle">Proses instalasi berhasil</string>
+    <string name="updateSuccess">Anda telah memasang versi baru <xliff:g example="gb.p37" id="version">%s</xliff:g>.</string>
+    <string name="package_unzip">Paket unzip, jangan diganggu...</string>
+    <string name="package_unzip_error">Kesalahan unzip</string>
+    <string name="upgrade_hint">Petunjuk pembaruan</string>
+    <string name="setting_autocheck">Memeriksa otomatis untuk pembaruan</string>
+    <string name="setting_autocheck_title">Siklus pengaturan</string>
+    <string name="setting_autocheck_hint">Atur siklus untuk memeriksa pembaruan otomatis</string>
+    <string name="setting_autocheck_schedule1">Suatu hari</string>
+    <string name="setting_autocheck_schedule2">tiga hari</string>
+    <string name="setting_autocheck_schedule3">Mingguan</string>
+    <string name="setting_only_wifi">Pembaruan via wi-fi saja</string>
+    <string name="setting_only_wifi_hint">Paket pembaruan akan diunduh via wi-fi saja</string>
+    <string name="setting_autodownload">Membolehkan pengunduhan otomatis</string>
+    <string name="setting_autodownload_hint">Paket pembaruan akan diunduh otomatis</string>
+    <string name="setting_network_tip">Anda berada di jaringan 2G/3G, harap ubah pemilihan [Pembaruan via wi-fi saja] dan coba lagi.</string>
+    <string name="reboot">Mulai ulang...</string>
+    <string name="option_file_select">Pembaharuan lokal</string>
+    <string name="sdCard_upgrade_memory_space_not_enough">Kesalahan</string>
+    <string name="sdCard_upgrade_copying">Menempel</string>
+    <string name="selected_update_zip">Berkas yang dipilih: </string>
+    <string name="sdCard_update_tips_content"><Data> <div style="font-size:15px;color:#4c4c4c"><p>1. Pastikan berkas yang dipilih resmi;</p>
+                                <p>2. Pembaruan lokal dapat menghapus data Anda, harap cadangkan sebelum memperbarui;</p>
+                                <p>3. Memasang berkas pembaruan yang salah akan merusak perangkat Anda;</p>
+                                <p>4. Klik tombol [Perbarui sekarang], perangkat Anda akan memasuki Moda Pemulihan. Mohon jangan melepas baterai dan jangan melakukan apapun sampai pembaruan selesai.</p></div>  </Data></string>
+    <string name="sdCard_upgrade_hint">Perbarui petunjuk</string>
+    <string name="sdCard_upgrade_find_update_file_fail">Tidak tersedia berkas pembaruan</string>
+    <string name="sdCard_upgrade_update_file_fail_prompt">Berkas pembaruan tidak ada, mohon pilih lagi.</string>
+    <string name="sdCard_upgrade_copy_file_fail">Gagal menempelkan</string>
+    <string name="sdCard_upgrade_copy_file_fail_prompt">Gagal menempelkan, mohon coba lagi!</string>
+    <string name="download_completed_text">Selesai mengunduh, silakan klik untuk memasang</string>
+    <string name="empty_directory">Tidak ada berkas zip dalam folder ini!</string>
+    <string name="sdcard_update_prompt">Perangkat Anda akan rusak jika memilih dan memasang berkas zip yang tidak resmi atau tidak kompatibel!</string>
+    <string name="export_data">Mengekspor data</string>
+    <string name="start_catch_log">Mulai menyimpan catatan</string>
+    <string name="stop_catch_log">Berhenti menyimpan catatan</string>
+    <!-- no translation found for remind_last_time -->
+    <!-- no translation found for pop_install_schedule1 -->
+    <!-- no translation found for pop_install_schedule2 -->
+    <!-- no translation found for pop_install_schedule3 -->
+    <!-- no translation found for option_exit -->
+    <!-- no translation found for htmlstring_version -->
+    <!-- no translation found for htmlstring_version_end -->
+    <!-- no translation found for htmlstring_code_head -->
+    <!-- no translation found for htmlstring_code_end -->
+    <!-- no translation found for ota_notify_download_pause_content -->
+    <!-- no translation found for ota_button_text_know -->
+    <!-- no translation found for ota_device_rooted_content -->
+    <string name="ota_battery_low">Baterai saat ini kurang dari %d%%, silakan mengisi daya!</string>
+    <!-- no translation found for ota_wifi_setting -->
+    <!-- no translation found for ota_no_wifi_tip -->
+    <!-- no translation found for ota_full_rom_check -->
+    <!-- no translation found for ota_optional_full_check -->
+    <!-- no translation found for ota_toast_no_network -->
+    <!-- no translation found for out_sdcard -->
+    <!-- no translation found for inner_sdcard -->
+    <!-- no translation found for match_imei -->
+    <!-- no translation found for sdcard_crash_dir_un_build -->
+    <!-- no translation found for post_pro -->
+    <!-- no translation found for ab_install_fail -->
+    <!-- no translation found for ab_install_success -->
+    <!-- no translation found for updated_need_reboot -->
+    <!-- no translation found for ab_isnatll_fail_reason -->
+    <!-- no translation found for ab_installing -->
+    <!-- no translation found for ab_connect_fail -->
+    <!-- no translation found for ab_battery_low -->
+    <!-- no translation found for ab_parms_illegal -->
+    <!-- no translation found for ab_reboot_now -->
+    <!-- no translation found for tips_abDownOrInstall -->
+    <!-- no translation found for tips_abInstall -->
+    <!-- no translation found for button_click_toast -->
+    <!-- no translation found for about_wireless_update -->
+    <!-- no translation found for agree -->
+    <!-- no translation found for analysis -->
+    <!-- no translation found for content -->
+    <string name="new_to_upgrade">"You have a new version to install "</string>
+    <string name="upgrade_agreement">"Normative agreement for upgrading and installation  "</string>
+    <string name="upgrade_agreement_content">1. Fix bugs and stabilize FOTA performance \n2. Auto-upgrade will be enabled at night  \n3. Auto-upgrade will be enabled after three delays in installation  \n4. FOTA upgrade is a safe way to upgrade software. It is recommended that you upgrade it</string>
+    <string name="romimg_notice">Anda terhubung ke data seluler saat roaming, disarankan untuk menggunakan koneksi Wi-Fi. Jika Anda memulai unduhan menggunakan data seluler, biaya tambahan mungkin berlaku. Apakah Anda ingin melanjutkan?</string>
+
+    <!-- no translation found for shake_to_check -->
+    <!-- no translation found for shake_to_download -->
+    <!-- no translation found for shake_to_update -->
+    <!-- no translation found for call_warn -->
+</resources>

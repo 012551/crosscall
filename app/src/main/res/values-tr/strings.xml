@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Yazılım Güncelleme</string>
+    <string name="check_now">Yazılım Güncelleme Kontrolü</string>
+    <string name="option_settings">Ayarlar</string>
+    <string name="current_version_text">Mevcut Versiyon:</string>
+    <string name="new_version_text">Yeni Versiyon</string>
+    <string name="download_progress">Yükleniyor:</string>
+    <string name="update_now">Şimdi Güncelle</string>
+    <string name="update_later">Daha Sonra Yükle</string>
+    <string name="battery_remove_title">Dikkat</string>
+    <string name="notification_content_title">Yazılım Güncelleme</string>
+    <string name="notification_content_newversion">Yeni Güncellemeler Mevcut</string>
+    <string name="new_version_query">Güncelleme  Kontrolü Yapılıyor...</string>
+    <string name="no_new_version">Sistem şu anda güncel</string>
+    <string name="network_error">Bağlantı Kurulamadı</string>
+    <string name="unmount_sdcard">SD kart hatası lütfen kontrol ediniz</string>
+    <string name="sdcard_crash_or_unmount">SD kart hatası. SD kartınızı kontrol edin ve tekrar deneyin.</string>
+    <string name="btn_pause">Durdurma</string>
+    <string name="btn_resume">Devam Etme</string>
+    <string name="btn_download">İndir</string>
+    <string name="btn_ok">Tamam</string>
+    <string name="btn_cancel">İptal</string>
+    <string name="netRoaming_content_tip">Dolaşırken mobil verilere bağlısınız, bir Wi-Fi bağlantısı kullanılması önerilir. Mobil verileri kullanarak indirmeye başlarsanız, ek ücretler geçerli olabilir. Devam etmek ister misin?</string>
+    <string name="cancel_download_title">İndirmeyi İptal Et</string>
+    <string name="cancel_download_content">Bu işlmele İndirilen dosya silinecektir.</string>
+    <string name="cancel_download_positive_btn">Evet</string>
+    <string name="cancel_download_negative_btn">Hayır</string>
+    <string name="update_prompt">Cihaz yeniden başlatılacak ve yükseltme moduna girecek.Tüm süreç birkaç dakika sürecek.Bu süre zarfında yükseltme arızasını önlemek için herhangi bir işlem yapmayın.</string>
+    <string name="not_support_fota_title">Dikkat</string>
+    <string name="not_support_version">Cihazınız FOTA Güncellemesini Desteklemiyor</string>
+    <string name="package_error_title">Yükleme Başarısız Oldu.</string>
+    <string name="package_error_message_invalid">İndirilen Dosya Hatalı Lütfen Tekrar Deneyiniz.</string>
+    <string name="updateSuccessTitle">Yükleme Başarıyla Tamamlandı</string>
+    <string name="updateSuccess">Yeni Versiyon Yüklü %s.</string>
+    <string name="package_unzip">Dosyalar Ayıklanıyor...</string>
+    <string name="package_unzip_error">Dosya Ayıklama Hatası</string>
+    <string name="upgrade_hint">Güncelleme ipucu</string>
+    <string name="setting_autocheck">Otomatik Güncelleme Kontrolü</string>
+    <string name="setting_autocheck_title">Çevrim ayarları</string>
+    <string name="setting_autocheck_hint">Güncelleme için otomatik olarak kontrol zamanını ayarlayın</string>
+    <string name="setting_autocheck_schedule1">bir gün</string>
+    <string name="setting_autocheck_schedule2">Üç gün</string>
+    <string name="setting_autocheck_schedule3">Haftalık</string>
+    <string name="setting_only_wifi">Sadece Wi-Fi Kullanarak Güncelle</string>
+    <string name="setting_only_wifi_hint">Güncelleme Dosyasını Sadece Wi-Fi Kullanarak İndir</string>
+    <string name="setting_autodownload">Otomatik indirmeye izin ver</string>
+    <string name="setting_autodownload_hint">Güncelleme Dosyasını Otomatik İndir</string>
+    <string name="setting_network_tip">İndirmek için 2G/3G bağlantınızı kapatıp Wi-Fi Açınız.</string>
+    <string name="reboot">Yeniden başlat...</string>
+    <string name="option_file_select">Yerel Güncellemeler</string>
+    <string name="selected_update_zip">Seçilen dosya: </string>
+    <!-- no translation found for sdCard_update_tips_content -->
+    <string name="sdCard_upgrade_hint">Güncelleme için ipucu</string>
+    <string name="sdCard_upgrade_find_update_file_fail">Güncelleme dosyası bulunmuyor</string>
+    <string name="sdCard_upgrade_update_file_fail_prompt">Güncelleme dosyası bulunamadı, lütfen tekrar seçin.</string>
+    <string name="sdCard_upgrade_memory_space_not_enough">Hata</string>
+    <string name="sdCard_upgrade_copy_file_fail">Yapıştırma başarısız</string>
+    <string name="sdCard_upgrade_copy_file_fail_prompt">Yapıştırma başarısız, lütfen tekrar deneyin!</string>
+    <string name="sdCard_upgrade_copying">Yapıştırılıyor</string>
+    <string name="download_completed_text">İndirme tamamlandı, kütfen kurulum için tıklayınız</string>
+    <string name="empty_directory">Klasör içerisinde sıkıştırılmış dosya bulunmuyor!</string>
+    <string name="sdcard_update_prompt">Eğer resmi olmayan veya tamamlanmamış bir sıkıştırılmış  dosyası seçerseniz, cihazınız bozulabilir!</string>
+    <string name="export_data">veriyi dışa taşı</string>
+    <string name="start_catch_log">Günlük yakalamayı başlat</string>
+    <string name="stop_catch_log">Günlük yakalamayı durdur</string>
+    <string name="remind_last_time">Yeniden hatırlat</string>
+    <string name="pop_install_schedule1">1 saat sonra</string>
+    <string name="pop_install_schedule2">4 saat sonra</string>
+    <string name="pop_install_schedule3">8 saat sonra</string>
+    <string name="pop_install_remind_title">Güncelleme ipucu</string>
+    <string name="pop_install_remind_content">Yeni sürüm indirildi, lütfen şimdi yükleyin.</string>
+    <string name="option_exit">Çıkış</string>
+    <!-- no translation found for htmlstring_version -->
+    <!-- no translation found for htmlstring_version_end -->
+    <!-- no translation found for htmlstring_code_head -->
+    <!-- no translation found for htmlstring_code_end -->
+    <string name="ota_notify_download_pause_content">Duraklatıldı, devam etmek için tıklayın</string>
+    <string name="ota_button_text_know">Biliyorum</string>
+    <string name="ota_device_rooted_content">Cihaza kök erişim izni verildi, güncellenemez!</string>
+    <string name="ota_battery_low">Mevcut pil %d%% \'den düşük, lütfen şarj edin!</string>
+    <string name="ota_wifi_setting">Wi-Fi Ayarları</string>
+    <string name="ota_no_wifi_tip">Wi-Fi şu an kullanılabilir değil, ağ üzerinden indirme onaylansın mı?</string>
+    <string name="ota_full_rom_check">Kontrol et</string>
+    <string name="ota_optional_full_check">Tam güncellemeyi kontrol et</string>
+    <string name="ota_toast_no_network">Ağ bağlanmadı</string>
+    <string name="out_sdcard">SD kart</string>
+    <string name="inner_sdcard">Dahili depolama</string>
+    <!-- no translation found for match_imei -->
+    <!-- no translation found for sdcard_crash_dir_un_build -->
+    <!-- no translation found for post_pro -->
+    <!-- no translation found for ab_install_fail -->
+    <!-- no translation found for ab_install_success -->
+    <!-- no translation found for updated_need_reboot -->
+    <!-- no translation found for ab_isnatll_fail_reason -->
+    <!-- no translation found for ab_installing -->
+    <!-- no translation found for ab_connect_fail -->
+    <!-- no translation found for ab_battery_low -->
+    <!-- no translation found for ab_parms_illegal -->
+    <!-- no translation found for ab_reboot_now -->
+    <!-- no translation found for tips_abDownOrInstall -->
+    <!-- no translation found for tips_abInstall -->
+    <!-- no translation found for button_click_toast -->
+    <!-- no translation found for about_wireless_update -->
+    <!-- no translation found for agree -->
+    <!-- no translation found for analysis -->
+    <!-- no translation found for content -->
+    <string name="new_to_upgrade">Yüklemek için yeni bir sürümünüz var</string>
+    <string name="upgrade_agreement">Yükseltme ve Kurulum için normatif anlaşma</string>
+    <string name="upgrade_agreement_content">1. Hataları düzeltin ve FOTA performansını dengeleyin \n2. Otomatik yükseltme gece etkin olacak \n3. Kurulumda üç gecikmeden sonra otomatik yükseltme etkinleşir \n4. FOTA yükseltme, yazılımı yükseltmenin güvenli bir yoludur. Yükseltmeniz önerilir</string>
+    <string name="shake_to_check">Kontrol etmek için sallayın</string>
+    <string name="shake_to_download">İndirmek için sallayın</string>
+    <string name="shake_to_update">Güncellemek için sallayın</string>
+    <string name="call_warn">Yazılım güncelleme indirmesi görüşme sırasında kullanılamayacak</string>
+    <string name="romimg_notice">Dolaşırken mobil verilere bağlısınız, bir Wi-Fi bağlantısı kullanılması önerilir. Mobil verileri kullanarak indirmeye başlarsanız, ek ücretler geçerli olabilir. Devam etmek ister misin?</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/popup_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pop_file_select"
+        style="@style/AppUIStyle.PopItemStyle">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/option_file_select_icon" />
+
+        <TextView
+            style="@style/AppUIStyle.PopItemTxtStyle"
+            android:text="@string/option_file_select" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_full_check"
+        style="@style/AppUIStyle.PopItemStyle"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/pop_full_rom" />
+
+        <TextView
+            style="@style/AppUIStyle.PopItemTxtStyle"
+            android:text="@string/ota_optional_full_check" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_setting"
+        style="@style/AppUIStyle.PopItemStyle">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/option_setting_icon" />
+
+        <TextView
+            style="@style/AppUIStyle.PopItemTxtStyle"
+            android:text="@string/option_settings" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_exit"
+        style="@style/AppUIStyle.PopItemStyle">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/pop_exit" />
+
+        <TextView
+            style="@style/AppUIStyle.PopItemTxtStyle"
+            android:text="@string/option_exit" />
+    </LinearLayout>
+</LinearLayout>

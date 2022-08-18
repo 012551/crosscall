@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cập nhật không dây</string>
+    <string name="check_now">Kiểm tra và cập nhật</string>
+    <string name="option_settings">Cài đặt</string>
+    <string name="current_version_text">Hiện tại:</string>
+    <string name="new_version_text">Phiên bản mới</string>
+    <string name="download_progress">Quá trình tải về:</string>
+    <string name="update_now">Cập nhật ngay</string>
+    <string name="update_later">Để sau</string>
+    <string name="battery_remove_title">Cảnh báo</string>
+    <string name="notification_content_title">Cập nhật không dây</string>
+    <string name="notification_content_newversion">Cập nhật mạng không dây: Phiên bản cập nhật</string>
+    <string name="new_version_query">Đang kiểm tra cập nhật...</string>
+    <string name="no_new_version">Hệ thống của bạn hiện đã được cập nhật.</string>
+    <string name="network_error">Kết nối mạng bị lỗi</string>
+    <string name="unmount_sdcard">Kết nối thẻ SD lỗi, hãy kiểm tra lại.</string>
+    <string name="sdcard_crash_or_unmount">Lỗi thẻ SD, hãy kiểm tra thẻ của bạn rồi thử lại.</string>
+    <string name="btn_pause">Tạm dừng</string>
+    <string name="btn_resume">Tiếp tục</string>
+    <string name="btn_download">Tải về</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="cancel_download_title">Hủy tải về</string>
+    <string name="netRoaming_content_tip">Bạn được kết nối với dữ liệu di động trong khi chuyển vùng, nên sử dụng kết nối Wi-Fi. Nếu bạn bắt đầu tải xuống bằng dữ liệu di động, có thể áp dụng thêm phí. Bạn có muốn tiếp tục không?</string>
+    <string name="cancel_download_content">Thao tác này sẽ xóa file đã tải về.</string>
+    <string name="cancel_download_positive_btn">Có</string>
+    <string name="cancel_download_negative_btn">Không</string>
+    <string name="update_prompt">Thiết bị sẽ khởi động lại và vào chế độ nâng cấp Toàn bộ quá trình sẽ kéo dài trong vài phút Trong thời gian này, không thực hiện bất kỳ thao tác nào để tránh lỗi nâng cấp.</string>
+    <string name="not_support_fota_title">Cảnh báo</string>
+    <string name="not_support_version">Thiết bị của bạn không hỗ trợ FOTA</string>
+    <string name="package_error_title">Cài đặt bị lỗi</string>
+    <string name="package_error_message_invalid">Gói cập nhật lỗi. Hãy kiểm tra cập nhật rồi tải lại.</string>
+    <string name="updateSuccessTitle">Đã cài đặt thành công</string>
+    <string name="updateSuccess">Bạn đã cài đặt phiên bản %s.</string>
+    <string name="package_unzip">Đang giải nén gói cài đặt, không được ngắt quãng...</string>
+    <string name="package_unzip_error">Giải nén lỗi</string>
+    <string name="upgrade_hint">Gợi ý cập nhật</string>
+    <string name="setting_autocheck">Tự động kiểm tra cập nhật</string>
+    <string name="setting_autocheck_title">Cài đặt chu kỳ</string>
+    <string name="setting_autocheck_hint">Đặt chu kỳ để kiểm tra tự động</string>
+    <string name="setting_autocheck_schedule1">một ngày</string>
+    <string name="setting_autocheck_schedule2">ba ngày</string>
+    <string name="setting_autocheck_schedule3">Hàng tuần</string>
+    <string name="setting_only_wifi">Cập nhật chỉ qua mạng Wi-fi</string>
+    <string name="setting_only_wifi_hint">Gói cập nhật sẽ được tải về qua mạng không dây</string>
+    <string name="setting_autodownload">Cho phép tải về tự động</string>
+    <string name="setting_autodownload_hint">Gói cập nhật sẽ được tải về tự động</string>
+    <string name="setting_network_tip">Bạn có thể đang sử dụng 2G/3G, hãy thay đổi lựa chọn [Chỉ cập nhật qua mạng WI-FI] và thử lại lần nữa.</string>
+    <string name="reboot">Khởi động lại...</string>
+    <string name="option_file_select">Cập nhật cục bộ</string>
+    <string name="selected_update_zip">Tệp đã chọn: </string>
+    <!-- no translation found for sdCard_update_tips_content -->
+    <string name="sdCard_upgrade_hint">Thông báo:</string>
+    <string name="sdCard_upgrade_find_update_file_fail">Không có tệp cập nhật</string>
+    <string name="sdCard_upgrade_update_file_fail_prompt">Tệp cập nhật không tồn tại, hãy chọn lại.</string>
+    <string name="sdCard_upgrade_memory_space_not_enough">Lỗi</string>
+    <string name="sdCard_upgrade_copy_file_fail">Không dán được</string>
+    <string name="sdCard_upgrade_copy_file_fail_prompt">Không dán được, vui lòng thử lại!</string>
+    <string name="sdCard_upgrade_copying">Đang dán...</string>
+    <string name="download_completed_text">Tải xuống hoàn tất, hãy nhấp để cài đặt</string>
+    <string name="empty_directory">Không có tệp zip trong thư mục này!</string>
+    <string name="sdcard_update_prompt">Thiết bị của bạn sẽ bị ngưng hoạt động nếu bạn chọn và cài đặt tệp zip không chính thống hoặc không tương thích!</string>
+    <string name="export_data">Tải xuống tệp nhật ký</string>
+    <string name="start_catch_log">Bắt đầu thu nhận nhật ký</string>
+    <string name="stop_catch_log">Kết thúc thu nhận nhật ký</string>
+    <string name="remind_last_time">Nhắc lại</string>
+    <string name="pop_install_schedule1">1 giờ sau</string>
+    <string name="pop_install_schedule2">4 giờ sau</string>
+    <string name="pop_install_schedule3">8 giờ sau</string>
+    <string name="pop_install_remind_title">Gợi ý cập nhật</string>
+    <string name="pop_install_remind_content">Phiên bản mới đã được tải xuống, hãy cài đặt ngay.</string>
+    <string name="option_exit">Thoát</string>
+    <!-- no translation found for htmlstring_version -->
+    <!-- no translation found for htmlstring_version_end -->
+    <!-- no translation found for htmlstring_code_head -->
+    <!-- no translation found for htmlstring_code_end -->
+    <string name="ota_notify_download_pause_content">Đã tạm dừng, nhấp để tiếp tục</string>
+    <string name="ota_button_text_know">Tôi biết</string>
+    <string name="ota_device_rooted_content">Thiết bị đã được root, không thể cập nhật!</string>
+    <string name="ota_battery_low">Pin hiện tại thấp hơn %d%% , vui lòng sạc!</string>
+    <string name="ota_wifi_setting">Cài đặt Wi-Fi</string>
+    <string name="ota_no_wifi_tip">Hiện không có Wi-Fi, xác nhận tải xuống qua mạng?</string>
+    <string name="ota_full_rom_check">Kiểm tra</string>
+    <string name="ota_optional_full_check">Kiểm tra cập nhật đầy đủ</string>
+    <string name="ota_toast_no_network">Chưa kết nối mạng</string>
+    <string name="out_sdcard">Thẻ SD</string>
+    <string name="inner_sdcard">Bộ nhớ trong</string>
+    <!-- no translation found for match_imei -->
+    <!-- no translation found for sdcard_crash_dir_un_build -->
+    <!-- no translation found for post_pro -->
+    <!-- no translation found for ab_install_fail -->
+    <!-- no translation found for ab_install_success -->
+    <!-- no translation found for updated_need_reboot -->
+    <!-- no translation found for ab_isnatll_fail_reason -->
+    <!-- no translation found for ab_installing -->
+    <!-- no translation found for ab_connect_fail -->
+    <!-- no translation found for ab_battery_low -->
+    <!-- no translation found for ab_parms_illegal -->
+    <!-- no translation found for ab_reboot_now -->
+    <!-- no translation found for tips_abDownOrInstall -->
+    <!-- no translation found for tips_abInstall -->
+    <!-- no translation found for button_click_toast -->
+    <!-- no translation found for about_wireless_update -->
+    <!-- no translation found for agree -->
+    <!-- no translation found for analysis -->
+    <!-- no translation found for content -->
+    <string name="new_to_upgrade">Bạn có một phiên bản mới để cài đặt</string>
+    <string name="upgrade_agreement">Thỏa thuận tiêu chuẩn để nâng cấp và cài đặt</string>
+    <string name="upgrade_agreement_content">1. Sửa lỗi và ổn định hiệu suất FOTA \n2. Tự động nâng cấp sẽ được bật vào ban đêm \n3. Tự động nâng cấp sẽ được bật sau ba lần trì hoãn cài đặt \n4. Nâng cấp FOTA là một cách an toàn để nâng cấp phần mềm. Bạn nên nâng cấp nó</string>
+    <string name="shake_to_check">Lắc để kiểm tra</string>
+    <string name="shake_to_download">Lắc để tải về</string>
+    <string name="shake_to_update">Lắc để cập nhật</string>
+    <string name="call_warn">Tải xuống bản cập nhật phần mềm sẽ không khả dụng trong suốt cuộc gọi</string>
+    <string name="romimg_notice">Bạn được kết nối với dữ liệu di động trong khi chuyển vùng, nên sử dụng kết nối Wi-Fi. Nếu bạn bắt đầu tải xuống bằng dữ liệu di động, có thể áp dụng thêm phí. Bạn có muốn tiếp tục không?</string>
+
+</resources>
