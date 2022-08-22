@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--在宿主中指定这些id的范围是为了使宿主各类资源的id和插件各类资源的id不重复，否则会出错（若没出错也仅是凑巧）-->
+
+    <!-- 单独指定属性的资源范围是为了支持主题属性换肤  将end值设置为0100，意思预留从0000到0100的id给插件属性使用
+        即插件的attr不可超过256个，这个值可以根据实际情况调整
+     -->
+    <public-padding name="public_static_final_host_attr_" end="0x7f010100" start="0x7f010000"
+        type="attr" />
+
+    <!-- 除属性外 其他类型的资源设置为  0x7f32开始 -->
+    <public-padding name="public_static_final_host_drawable_" end="0x7f3f0000" start="0x7f3f0000"
+        type="drawable" />
+    <public-padding name="public_static_final_host_layout_" end="0x7f330000" start="0x7f330000"
+        type="layout" />
+    <public-padding name="public_static_final_host_anim_" end="0x7f340000" start="0x7f340000"
+        type="anim" />
+    <public-padding name="public_static_final_host_xml_" end="0x7f350000" start="0x7f350000"
+        type="xml" />
+    <public-padding name="public_static_final_host_raw_" end="0x7f360000" start="0x7f360000"
+        type="raw" />
+    <public-padding name="public_static_final_host_dimen_" end="0x7f370000" start="0x7f370000"
+        type="dimen" />
+    <public-padding name="public_static_final_host_string_" end="0x7f380000" start="0x7f380000"
+        type="string" />
+    <public-padding name="public_static_final_host_style_" end="0x7f390000" start="0x7f390000"
+        type="style" />
+    <public-padding name="public_static_final_host_color_" end="0x7f3a0000" start="0x7f3a0000"
+        type="color" />
+    <public-padding name="public_static_final_host_id_" end="0x7f3b0000" start="0x7f3b0000"
+        type="id" />
+    <public-padding name="public_static_final_host_bool_" end="0x7f3c0000" start="0x7f3c0000"
+        type="bool" />
+    <public-padding name="public_static_final_host_int_" end="0x7f3d0000" start="0x7f3d0000"
+        type="integer" />
+    <public-padding name="public_static_final_host_array_" end="0x7f3e0000" start="0x7f3e0000"
+        type="array" />
+    <public-padding name="public_static_final_host_menu_" end="0x7f320000" start="0x7f320000"
+        type="menu" />
+
+</resources>
